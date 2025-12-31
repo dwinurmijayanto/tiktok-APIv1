@@ -1,0 +1,18 @@
+{
+  "name": "tiktok-downloader-api",
+  "version": "1.0.0",
+  "description": "TikTok Video Downloader API for Vercel",
+  "main": "api/tiktok.php",
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "tiktok",
+    "downloader",
+    "api",
+    "vercel",
+    "php"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
