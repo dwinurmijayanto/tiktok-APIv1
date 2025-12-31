@@ -4,10 +4,62 @@
       "runtime": "vercel-php@0.7.3"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/tiktok",
-      "dest": "/api/tiktok.php"
+      "source": "/",
+      "destination": "/api/index.php"
+    },
+    {
+      "source": "/api/allapi",
+      "destination": "/api/allapi.php"
+    },
+    {
+      "source": "/api/caritiktok",
+      "destination": "/api/caritiktok.php"
+    },
+    {
+      "source": "/api/infotiktok",
+      "destination": "/api/infotiktok.php"
+    },
+    {
+      "source": "/api/instatiktok",
+      "destination": "/api/instatiktok.php"
+    },
+    {
+      "source": "/api/metadata",
+      "destination": "/api/metadata.php"
+    },
+    {
+      "source": "/api/musicaldown",
+      "destination": "/api/musicaldown.php"
+    },
+    {
+      "source": "/api/savetik-lagierror",
+      "destination": "/api/savetik-lagierror.php"
+    },
+    {
+      "source": "/api/sstikio",
+      "destination": "/api/sstikio.php"
+    },
+    {
+      "source": "/api/tiktokapi",
+      "destination": "/api/tiktokapi.php"
+    },
+    {
+      "source": "/api/tiktokdownloadonline",
+      "destination": "/api/tiktokdownloadonline.php"
+    },
+    {
+      "source": "/api/tiktok-stalk",
+      "destination": "/api/tiktok-stalk.php"
+    },
+    {
+      "source": "/api/tikwm",
+      "destination": "/api/tikwm.php"
+    },
+    {
+      "source": "/api/ttsave",
+      "destination": "/api/ttsave.php"
     }
   ]
 }
