@@ -11,10 +11,5 @@
       "src": "/api/tiktok",
       "dest": "/api/tiktok.php"
     }
-  ],
-  "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.6.0"
-    }
-  }
+  ]
 }
