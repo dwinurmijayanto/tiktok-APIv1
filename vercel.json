@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.8.0"
+      "runtime": "vercel-php@0.7.3"
     }
   },
   "headers": [
@@ -11,6 +11,10 @@
         {
           "key": "Content-Type",
           "value": "application/json; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     },
